@@ -4089,8 +4089,8 @@ a > code {
       position: absolute;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-      padding-right: 0.5rem;
-      padding-left: 0.5rem;
+      padding-right: 0rem;
+      padding-left: 0rem;
     }
     .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid,
