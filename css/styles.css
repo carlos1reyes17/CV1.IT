@@ -4089,8 +4089,8 @@ a > code {
       position: absolute;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-      padding-right: 0rem;
-      padding-left: 0rem;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
     }
     .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid,
@@ -4103,6 +4103,7 @@ a > code {
     .navbar-expand-sm .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
+      margin:auto;
     }
     .navbar-expand-sm .navbar-toggler {
       display: none;
@@ -4128,7 +4129,7 @@ a > code {
       flex-direction: row;
     }
     .navbar-expand-md .navbar-nav .dropdown-menu {
-      position: absolute;
+      position: relative;
     }
     .navbar-expand-md .navbar-nav .nav-link {
       padding-right: 0.5rem;
@@ -4159,6 +4160,8 @@ a > code {
   .navbar-expand-lg > .container-xl {
       padding-right: 0;
       padding-left: 0;
+      padding-top: 0;
+      scroll-padding-bottom: 0;
     }
   }
   @media (min-width: 992px) {
