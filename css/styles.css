@@ -544,6 +544,11 @@ a > code {
     margin-right: auto;
     margin-left: auto;
   }
+  @media (min-width: 548px) {
+    .container {
+      max-width: 5100px;
+    }
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
@@ -10084,7 +10089,7 @@ a > code {
     height: 3.5rem;
     width: 3.5rem;
     background-color: #1f2225;
-    color: rgb(255, 255, 255);
+    color: rgb(105, 93, 93);
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
